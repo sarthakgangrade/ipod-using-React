@@ -1,0 +1,37 @@
+.allsongs-container {
+  height: 100%;
+  width: 100%;
+
+  background-color: rgb(224, 235, 245);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.allsongs-header {
+  width: 100%;
+  height: 60%;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.allsongs-header h3 {
+  font-size: large;
+  font-weight: bold;
+}
+#allSongs-img {
+  height: 80%;
+  width: 50%;
+}
+
+audio {
+  width: 300px;
+  height: 54px;
+}
+
+audio {
+  transform: scale(0.6, 0.5);
+}

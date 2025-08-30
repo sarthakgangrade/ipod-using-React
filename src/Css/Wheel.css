@@ -1,0 +1,43 @@
+#wheel {
+  height: 180px;
+  width: 180px;
+  border-radius: 100%;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(227, 227, 227);
+}
+
+.control {
+  position: absolute;
+  color: grey;
+}
+
+#menu {
+  top: 20px;
+}
+
+#menu span {
+  font-weight: 700;
+}
+
+#backward {
+  left: 20px;
+}
+
+#forward {
+  right: 20px;
+}
+
+#play-pause {
+  bottom: 20px;
+}
+
+#blank {
+  height: 70px;
+  width: 70px;
+  background-color: grey;
+  border-radius: 50%;
+}
